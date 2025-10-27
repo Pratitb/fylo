@@ -3,7 +3,7 @@ import Button from "./button"
 
 const Hero: React.FC<HeroType> = ({ heroBg, heroImg, head, desc }) => {
     return (
-        <div className="flex flex-col items-center gap-8 px-2 py-8 mt-6 relative bg-primary rounded-2xl">
+        <div className="flex flex-col items-center gap-8 px-2 py-8 mt-4 relative bg-primary rounded-2xl">
             <img src={heroBg} className=" absolute bottom-0 left-0 object-cover" alt="Wavy Background" />
             <img src={heroImg} className="md:max-w-[700px]" alt="Users putting files in a folder" />
             <div className="max-w-[500px] z-10">
