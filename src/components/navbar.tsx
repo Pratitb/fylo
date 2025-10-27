@@ -5,8 +5,8 @@ import type { LinksType } from "../utils/types"
 const Navbar = () => {
 
     return (
-        <div className="flex gap-8 items-center">
-            <img src={Assets?.navLogo} className="max-w-32" alt="Fylo Logo" />
+        <div className="flex gap-4 items-center">
+            <img src={Assets?.navLogo} className="max-w-24" alt="Fylo Logo" />
             <div className="w-full flex justify-end gap-3 md:gap-8">
                 {navLinks?.map((link: LinksType, index: number) => {
                     return (
