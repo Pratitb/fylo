@@ -1,5 +1,5 @@
 import type { ProductivityType } from "../utils/types"
-import LinkBtn from "./LinkBtn"
+import LinkBtn from "./linkBtn"
 
 const Productivity: React.FC<ProductivityType> = ({ productiveImg, head, desc, btnLabel, linkBtnArr }) => {
     return (
